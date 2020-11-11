@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  alinspace-web:
+
+  alinspace-web-reverseproxy:
+
+  alinspace-database:
