@@ -2,4 +2,4 @@
 
 # AlinSpace
 
-Collection of all submodules for AlinSpace.
+Collection of submodules for AlinSpace.
