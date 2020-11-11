@@ -8,7 +8,7 @@ Collection of submodules for AlinSpace.
 
 The following list contains all submodules of AlinSpace:
 
-- **AlinSpace.Web**: Docker container running the main **ASP.NET Core** application (private repository).
+- **AlinSpace.Web**: Docker container for the main **ASP.NET Core** application (private repository).
 - **AlinSpace.Web.ReverseProxy**: Docker container for the **NGINX** reverse proxy.
 - **AlinSpace.Database**: Docker container for the **PostgreSQL** database.
 
