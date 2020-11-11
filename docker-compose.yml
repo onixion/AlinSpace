@@ -1,6 +1,7 @@
 version: "3.8"
 services:
   alinspace-web:
+    hostname: alinspace-web
     build: AlinSpace.Web/
   alinspace-web-reverseproxy:
     build: AlinSpace.Web.ReverseProxy/
