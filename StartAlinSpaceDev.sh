@@ -1,5 +1,5 @@
 #!/bin/bash
 
-export DOMAIN=alin.space
+export DOMAIN=dev.alin.space
 docker-compose build
 docker-compose up -d
