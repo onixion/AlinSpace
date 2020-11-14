@@ -1,9 +1,9 @@
 [submodule "AlinSpace.Web"]
 	path = AlinSpace.Web
-	url = https://github.com/onixion/AlinSpace.Web
+	url = git@github.com:onixion/AlinSpace.Web
 [submodule "AlinSpace.Web.ReverseProxy"]
 	path = AlinSpace.Web.ReverseProxy
-	url = https://github.com/onixion/AlinSpace.Web.ReverseProxy
+	url = git@github.com:onixion/AlinSpace.Web.ReverseProxy
 [submodule "AlinSpace.Database"]
 	path = AlinSpace.Database
-	url = https://github.com/onixion/AlinSpace.Database
+	url = git@github.com:onixion/AlinSpace.Database
