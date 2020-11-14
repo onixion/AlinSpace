@@ -18,8 +18,17 @@ All those containers are clued together via **docker-compose**.
 
 Clone this repository and all submodules with the following command:
 
-´´´
+```
 git clone --recurse-submodules https://github.com/onixion/AlinSpace.git
-´´´
+```
 
 Note: **AlinSpace.Web** is private, so you will not be able to clone it.
+
+# Detached HEAD in submodules
+
+To fix the issue with detached HEADs in the submodules, execute the following commands in each submodule:
+
+```
+git branch origin/master master
+git checkout master
+```
