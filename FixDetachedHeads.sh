@@ -6,19 +6,22 @@ callerdir=$(pwd)
 cd "$(dirname "$0")"
 
 cd AlinSpace.Database
-git branch origin/master master
-git checkout master
+git checkout -b main
+git branch origin/main main
+git checkout main
 cd ..
 
 cd AlinSpace.Web
-git branch origin/master master
-git checkout master
+git checkout -b main
+git branch origin/main main
+git checkout main
 cd ..
 
 cd AlinSpace.Web.ReverseProxy
-git branch origin/master master
-git checkout master
+git checkout -b main
+git branch origin/main main
+git checkout main
 cd ..
 
-cd $(callerdir)
+cd $callerdir
 
