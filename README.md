@@ -26,9 +26,4 @@ Note: **AlinSpace.Web** is private, so you will not be able to clone it.
 
 # Detached HEAD in submodules
 
-To fix the issue with detached HEADs in the submodules, execute the following commands in each submodule:
-
-```
-git branch origin/master master
-git checkout master
-```
+To fix the issues with detached HEADs in the submodules, execute the script **FixDetachedHeads.sh**.
