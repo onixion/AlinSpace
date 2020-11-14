@@ -1,12 +1,23 @@
 version: "3.8"
 services:
   alinspace-web:
+    container_name: alinspace-web
     hostname: alinspace-web
     build: AlinSpace.Web/
   alinspace-web-reverseproxy:
+    container_name: alinspace-web-reverseproxy
     build: AlinSpace.Web.ReverseProxy/
     ports:
       - 80:80
       - 443:443
     volumes:
       - /etc/letsencrypt/archive/$DOMAIN/:/etc/nginx/certs/
+  alinspace-database:
+    container_name: alinspace-database
+    hostname: alinspace-database
+    image: postgres:13.0-alpine
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWROD=postgres
+    volumes:
+      - /database-data:/var/lib/postgresql/data
