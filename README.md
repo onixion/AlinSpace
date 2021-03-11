@@ -9,6 +9,7 @@ Collection of submodules for AlinSpace.
 The following list contains all submodules for AlinSpace:
 
 - **AlinSpace.Web**: Docker container for the main **ASP.NET Core** application (private repository).
+- **AlinSpace.Web.Blazor**: Docker container for the main **Blazor** and **ASP.NET Core** application (private repository).
 - **AlinSpace.Web.ReverseProxy**: Docker container for the **NGINX** reverse proxy.
 - **AlinSpace.Database**: Docker container for the **PostgreSQL** database.
 
@@ -23,7 +24,4 @@ git clone --recurse-submodules https://github.com/onixion/AlinSpace.git
 ```
 
 Note: **AlinSpace.Web** is private, so you will not be able to clone it.
-
-# Detached HEADs in submodules
-
-To fix the issues with detached HEADs in the submodules, execute the script **FixDetachedHeads.sh**.
+Note: **AlinSpace.Web.Blazor** is private, so you will not be able to clone it.
