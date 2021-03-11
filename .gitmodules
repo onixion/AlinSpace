@@ -7,3 +7,6 @@
 [submodule "AlinSpace.Database"]
 	path = AlinSpace.Database
 	url = git@github.com:onixion/AlinSpace.Database
+[submodule "AlinSpace.Web.Blazor"]
+	path = AlinSpace.Web.Blazor
+	url = https://github.com/onixion/AlinSpace.Web.Blazor
