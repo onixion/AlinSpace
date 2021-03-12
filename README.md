@@ -23,7 +23,3 @@ Clone this repository and all submodules with the following command:
 ```
 git clone --recurse-submodules https://github.com/onixion/AlinSpace.git
 ```
-
-Note: **AlinSpace.Web** is private, so you will not be able to clone it.
-Note: **AlinSpace.MobileApp** is private, so you will not be able to clone it.
-Note: **AlinSpace.Web.Blazor** is private, so you will not be able to clone it.
