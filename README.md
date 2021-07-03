@@ -8,11 +8,24 @@ Collection of submodules for AlinSpace.
 
 The following list contains all submodules for AlinSpace:
 
-- **AlinSpace.Web**: Docker container for the main **ASP.NET Core** application (private repository).
-- **AlinSpace.Web.Blazor**: Docker container for the main **Blazor** and **ASP.NET Core** application (private repository).
-- **AlinSpace.MobileApp**: Xamarin.Forms cross-platform mobile application (private repository).
+- [**AlinSpace.Database**](https://github.com/onixion/AlinSpace.Database):
+- [**AlinSpace.Database.Ef**](https://github.com/onixion/AlinSpace.Database):
+- [**AlinSpace.Database.Feuer**](https://github.com/onixion/AlinSpace.Database):
+- [**AlinSpace.Database.Feuer.Console**](https://github.com/onixion/AlinSpace.Database):
+
+- **AlinSpace.Web.Api.Feuer**:
+- **AlinSpace.Web.Feuer**:
 - [**AlinSpace.Web.ReverseProxy**](https://github.com/onixion/AlinSpace.Web.ReverseProxy): Docker container for the **NGINX** reverse proxy.
-- [**AlinSpace.Database**](https://github.com/onixion/AlinSpace.Database): Docker container for the **PostgreSQL** database.
+
+- **AlinSpace.Mobile.Core**:
+- **AlinSpace.Mobile.Xf**:
+- **AlinSpace.Mobile.Xf.Droid**:
+- **AlinSpace.Mobile.Xf.iOS**:
+
+- **AlinSpace.Mobile.Blitz**:
+- **AlinSpace.Mobile.Blitz.Droid**:
+- **AlinSpace.Mobile.Blitz.iOS**:
+- **AlinSpace.Mobile.Blitz.Assets**:
 
 All docker containers are clued together via **docker-compose**.
 
